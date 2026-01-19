@@ -147,45 +147,7 @@ export const preetifySubcribers = (viewCount) => {
 
   return preetifiedViews;
 };
-// preetifyViews
-// console.log(preetifyViews("4085"));
-// console.log(preetifyViews("4205"));
-// console.log(preetifyViews("4005"));
-// console.log(preetifyViews("40859"));
-// console.log(preetifyViews("42059"));
-// console.log(preetifyViews("40050"));
-// console.log(preetifyViews("408599"));
-// console.log(preetifyViews("420596"));
-// console.log(preetifyViews("400506"));
-// console.log(preetifyViews("4085997"));
-// console.log(preetifyViews("4205968"));
-// console.log(preetifyViews("4005068"));
-// console.log(preetifyViews("4895068"));
-// console.log(preetifyViews("40859974"));
-// console.log(preetifyViews("42059655"));
-// console.log(preetifyViews("40050685"));
-// console.log(preetifyViews("48950683"));
-// console.log(preetifyViews("408599748"));
-// console.log(preetifyViews("420596558"));
-// console.log(preetifyViews("400506858"));
-// console.log(preetifyViews("489506838"));
-// console.log(preetifyViews("4085997486"));
-// console.log(preetifyViews("4205965586"));
-// console.log(preetifyViews("4005068586"));
-// console.log(preetifyViews("4895068386"));
-// console.log(preetifyViews("14585911"));
-// console.log(preetifyViews("98985911"));
-// console.log(preetifyViews("99274555"));
-// console.log(preetifyViews("98900859"));
-// console.log(preetifyViews("9808591"));
-// console.log(preetifyViews("989859"));
-// console.log(preetifyViews("980859"));
-// console.log(preetifyViews(2920));
-// console.log(preetifyViews("9999"));
-// console.log(preetifyViews("11199"));
-// console.log(preetifyViews(2931677556));
-// const number = 231677556748;
-// console.log(number.toLocaleString("en-us"));
+
 
 export const daysAgo = (dateAndTime) => {
   const currentDateAndTime = new Date();
@@ -308,16 +270,6 @@ export const daysAgoForComment = (dateAndTime) => {
   }
 };
 
-// console.log(daysAgo("2021-05-01T09:52:37Z"));
-// console.log(daysAgo("2023-08-01T09:52:37Z"));
-// console.log(daysAgo("2023-09-01T09:52:37Z"));
-// console.log(daysAgo("2023-09-03T09:52:37Z"));
-// console.log(daysAgo("2023-09-07T09:52:37Z"));
-// console.log(daysAgo("2023-09-12T12:30:25Z"));
-// console.log(daysAgo("2023-09-15T12:30:25Z"));
-// console.log(daysAgo("2023-09-27T12:30:25Z"));
-// console.log(daysAgo("2023-09-28T12:30:25Z"));
-// console.log(daysAgo("2012-01-29T12:30:25Z"));
 
 export const preetifyDuration = (durationISOString) => {
   let result = durationISOString.slice(2);
@@ -364,13 +316,4 @@ export const preetifyDuration = (durationISOString) => {
   }
 };
 
-// console.log(preetifyDuration("PT11H58M30S"));
-// console.log(preetifyDuration("PT58M30S"));
 
-// console.log(preetifyDuration("PT11H4M7S"));
-
-// console.log(preetifyDuration("PT2H3M"));
-// console.log(preetifyDuration("PT2H4S"));
-// console.log(preetifyDuration("PT4H"));
-// console.log(preetifyDuration("PT6M"));
-// console.log(preetifyDuration("PT8S"));
